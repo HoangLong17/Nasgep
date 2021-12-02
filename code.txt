@@ -1,0 +1,42 @@
+Class Gene
+__init__():
++ random Function: add, convolution
++ Terminal
++ forward
+
+Class Normal Gene extend Gene
+Class Reduction Gene extend Gene
+
+Class Cell
++ random Function: add, concat
++ random Terminal: Gene
++ forward
+
+Class Normal Cell extend Cell import NormalGene
+Class Reduction Cell extend Cell import Reduction Cell
+
+Class Population
+-tourmentSearch
+-selection
+-mutation
+-transposition
+-root transposition
+-one-point
+-two-point recombination
++kill
+
+Class RandomInput
+-randomInput
+
+Class model
++ forward
++ getFitness
++ train(backward, step)
+
+
+Class Main
++ genNornalGene
++ genReductionGene
++ genNormalCell
++ genReductionCell
++ main

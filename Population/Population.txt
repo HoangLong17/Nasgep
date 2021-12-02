@@ -1,0 +1,9 @@
+Class Population
+-tourmentSearch
+-selection
+-mutation
+-transposition
+-root transposition
+-one-point
+-two-point recombination
++kill
